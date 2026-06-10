@@ -4,22 +4,22 @@ cask "otf-mcp" do
 
   on_macos do
     on_intel do
-      sha256 "508c48259242094c8ecbb46b591c6d2dcc2c481b5d30fe43b9da894c07f31088"
+      sha256 "53b7db26d125323cee5852f50260dfba0075477b18893352471a814cf39dd0e2"
       url "https://github.com/ammiranda/otf_api/releases/download/v#{version}/otf-mcp-darwin-amd64.tar.gz"
     end
     on_arm do
-      sha256 "82569330197b60c71705b12d6dc91d19ab135a9792d8838b52846de12392ee18"
+      sha256 "c6e101920308d33a09496f9ec253c2b329c54c77d148f91174ea5c545f7d2d32"
       url "https://github.com/ammiranda/otf_api/releases/download/v#{version}/otf-mcp-darwin-arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "86390a6a359037a69557aba28f272873add980f5201828b095b3b933809e81cf"
+      sha256 "563a10f8a2b92394c2719f2997cfabe6e5aceaa94ebfca66c5fce1226871b4f2"
       url "https://github.com/ammiranda/otf_api/releases/download/v#{version}/otf-mcp-linux-amd64.tar.gz"
     end
     on_arm do
-      sha256 "83a492ab55b839fd5a6311dc8399b46563df5477abb506b7e62ffaf84d43ce50"
+      sha256 "61a00f6bb22ed73440e505c49f8f5fa34ebbf2e6ff7a6684cc0f2312784d0ec7"
       url "https://github.com/ammiranda/otf_api/releases/download/v#{version}/otf-mcp-linux-arm64.tar.gz"
     end
   end
